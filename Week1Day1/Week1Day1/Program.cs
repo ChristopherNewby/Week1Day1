@@ -53,7 +53,29 @@ namespace Week1Day1
             //"X marks the spot"(using the variable from #6 above)
             Console.WriteLine(string3 + " marks the spot.");
 
-            Console.ReadLine();
+            //Console.ReadLine();
+
+            //            Adventurer Mode
+            //Make an array of your favorite movies or books or bands.Have at least 4 values.
+            //Make a anonymous type object of information about yourself.Have at least 4 properties on the anonymous type
+            //Notes
+            //Info about Anonymous Objects
+
+             string[] firstArray = new string[] {"Fight Club", "Reservoir Dogs", "Pulp Fiction","Knocked Up"};
+            
+            for (int c = 0; c < firstArray.Length; c++)
+            {
+                Console.WriteLine(firstArray[c]);
+            }
+                Console.ReadLine();
+
+            var myself = new { firstName = "Chris", lastName = "Newby", age = "27", height = "6'0", };
+
+           
+
+
+
+
         }
     }
 }
