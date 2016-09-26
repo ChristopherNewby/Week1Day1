@@ -31,7 +31,7 @@ namespace Week1Day1
            
 
             //a variable that holds the single letter X
-            string string3 = ("x");
+            string string3 = ("X");
 
 
             //Let's practice string interpolation, by writing the following the strings to the console:
@@ -42,13 +42,13 @@ namespace Week1Day1
             Console.WriteLine("Columbus Sailed the world in " + int1);
 
             //"It is true that I have a dog at home."(using the variable from #3 above)
-            Console.WriteLine("It is " + dogAtHome + " that I have a dog at home.");
+            Console.WriteLine("It is " + dogAtHome.ToString().ToLower() + " that I have a dog at home.");
 
             //"Today is 2/29/2016."(using the variable from #4 above)
             Console.WriteLine("Today is " + myDateTime);
 
             //"I spent $5.45 on a cheeseburger."(using the variable from #5 above)
-            Console.WriteLine("I spent $" + myDouble + " on a cheeseburger.");
+            Console.WriteLine("I spent " + myDouble.ToString("C") + " on a cheeseburger.");
 
             //"X marks the spot"(using the variable from #6 above)
             Console.WriteLine(string3 + " marks the spot.");
